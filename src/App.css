@@ -1,0 +1,14 @@
+.app-header {
+  color: #1E3231;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px;
+  text-align: center;
+}
+
+.app-footer {
+  color: #1E3231;
+  margin: 40px;
+  text-align: center;
+  
+}
