@@ -1,0 +1,11 @@
+.results-word {
+    margin-top: 40px;
+    background-color: #fcff82;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+h2 {
+font-size: 44px;
+}

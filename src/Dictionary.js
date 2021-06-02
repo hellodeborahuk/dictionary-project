@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
+import { FaSearch } from "react-icons/fa";
+
 
 export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
@@ -26,8 +28,14 @@ export default function Dictionary() {
       <div className="Dictionary">
         <p>What word do you want to look up?</p>
         <form onSubmit={search}>
-            <input type="search"  onChange={handleKeywordChange}/>
-            <input type="submit" />
+          <input
+            type="search"
+            onChange={handleKeywordChange}
+            className="form-input"
+          />
+          <button type="submit" className="form-submit">
+            <FaSearch />
+          </button>
         </form>
 
         <Results results={results} />

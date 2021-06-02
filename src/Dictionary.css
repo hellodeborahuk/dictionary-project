@@ -1,2 +1,20 @@
 .Dictionary {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-input {
+    margin-right: 20px;
+    padding: 6px 20px;
+    border: 2px solid #7A89B2;
+    border-radius: 4px;
+}
+
+.form-submit {
+    background-color: #AFC5FF;
+    border: 2px solid #7A89B2;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 10px;
 }

@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Dictionary from "./Dictionary";
 
 function App() {
@@ -6,11 +6,20 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="app-header">dic·tion·ar·y</header>
-       <main>
-         <Dictionary />
-       </main>
-       <footer className="app-footer">Coded by Debbie Dann</footer>
-     </div>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="app-footer">
+          <a
+            href="https://github.com/hellodeborahuk/dictionary-project"
+            target="_blank"
+            rel="nofollow"
+          >
+            Open-source code
+          </a>{" "}
+          by Debbie Dann
+        </footer>
+      </div>
     </div>
   );
 }
