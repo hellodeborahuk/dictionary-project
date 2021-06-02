@@ -13,7 +13,7 @@ function App() {
           <a
             href="https://github.com/hellodeborahuk/dictionary-project"
             target="_blank"
-            rel="nofollow"
+            rel="noreferrer"
           >
             Open-source code
           </a>{" "}
