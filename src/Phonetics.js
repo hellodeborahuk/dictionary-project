@@ -7,7 +7,14 @@ export default function Phonetics(props) {
      <div className="Phonetics">
        <span>
          {props.phonetic.text}{" "}
-         <a href={props.phonetic.audio} target="_blank" rel="norefferer" className="speaker-icon"><GiSpeaker /></a>
+         <a
+           href={props.phonetic.audio}
+           target="_blank"
+           rel="noreferrer"
+           className="speaker-icon"
+         >
+           <GiSpeaker />
+         </a>
        </span>
      </div>
    );
