@@ -1,5 +1,5 @@
 .app-header {
-  color: #424342;
+  color: #33414A;
   font-size: 48px;
   font-weight: bold;
   margin: 30px 0 15px;
@@ -12,12 +12,16 @@
   
 }
 body {
-background: #EBF0FF;
+background: #F6FBFE;
 }
 a {
-  color: #7A89B2;
+  color: #88AEC5;
+}
+
+a:hover {
+  color: #33414A;
 }
 
 h1, h2, h3, p {
-color: #1E3231;
+color: #33414A;
 }

@@ -2,12 +2,13 @@ import React from "react";
 import "./Phonetics.css";
 import { GiSpeaker } from "react-icons/gi";
 
+
 export default function Phonetics(props) {
    return (
      <div className="Phonetics">
        <span>
          {props.phonetic.text}{" "}
-         <a
+                <a
            href={props.phonetic.audio}
            target="_blank"
            rel="noreferrer"

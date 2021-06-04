@@ -7,14 +7,14 @@
 .form-input {
     margin-right: 20px;
     padding: 6px 20px;
-    border: 2px solid #7A89B2;
+    border: 2px solid #88AEC5;
     border-radius: 6px;
     width: 40%;
 }
 
 .form-submit {
-    background-color: #AFC5FF;
-    border: 2px solid #7A89B2;
+    background-color: #AADAF7;
+    border: 2px solid #88AEC5;
     border-radius: 6px;
     color: white;
     padding: 6px 10px;
