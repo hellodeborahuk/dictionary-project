@@ -1,16 +1,17 @@
 .speaker-icon {
     font-size: 30px;
+    padding-left: 15px;
 }
-
 .Phonetics a {
-    color: #7A89B2;
+    color: #33414A;
 }
 .Phonetics a:hover {
-    color: #424342;
+    color: #88AEC5;
 }
 
 .Phonetics span {
 font-size: 20px;
 display: flex;
 justify-content: center;
+align-content: center;
 }
