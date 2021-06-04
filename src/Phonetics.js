@@ -4,18 +4,25 @@ import { GiSpeaker } from "react-icons/gi";
 
 
 export default function Phonetics(props) {
+
+  const audio = new Audio(props.phonetic.audio);
+
+  function handleClick() {
+    audio.play();
+  }
    return (
      <div className="Phonetics">
        <span>
          {props.phonetic.text}{" "}
-                <a
-           href={props.phonetic.audio}
+         <button type="button"
+          
            target="_blank"
            rel="noreferrer"
            className="speaker-icon"
+           onClick={handleClick}
          >
            <GiSpeaker />
-         </a>
+         </button>
        </span>
      </div>
    );

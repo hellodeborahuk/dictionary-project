@@ -1,11 +1,13 @@
 .speaker-icon {
     font-size: 30px;
-    padding-left: 15px;
 }
-.Phonetics a {
+.Phonetics button {
     color: #33414A;
+    border: none;
+    background: none;
+    padding: 0 0 0 15px;
 }
-.Phonetics a:hover {
+.Phonetics button:hover {
     color: #88AEC5;
 }
 
