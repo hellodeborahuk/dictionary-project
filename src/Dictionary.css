@@ -1,30 +1,57 @@
 .Dictionary {
-    width: 65%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 .form-input {
-    margin-right: 20px;
-    padding: 6px 20px;
-    border: 2px solid #88AEC5;
-    border-radius: 6px;
-    width: 40%;
+  margin-right: 20px;
+  padding: 6px 20px;
+  border: 2px solid #88aec5;
+  border-radius: 6px;
+  width: 70%;
 }
 
 .form-submit {
-    background-color: #AADAF7;
-    border: 2px solid #88AEC5;
-    border-radius: 6px;
-    color: white;
-    padding: 6px 10px;
+  background-color: #aadaf7;
+  border: 2px solid #88aec5;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 10px;
 }
 
 .hint {
-    font-size: 13px;
-    margin-top: 5px;
+  font-size: 13px;
+  margin-top: 5px;
 }
 
 .search-question {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Dictionary {
+    width: 65%;
+  }
+
+  .form-input {
+    width: 40%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
